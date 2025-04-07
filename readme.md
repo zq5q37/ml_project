@@ -80,6 +80,14 @@ Formats and prints the results from the evaluation function.
 
 ## Part 2
 
+### `compute_transition_parameters(train_file_path, smoothing=0.1)`
+Calculates transition probabilities with Laplace smoothing. 
+
+- **Input:** 
+    - `train_file_path:` Path to training data file (word-tag pairs).
+    - `smoothing:` Smoothing factor (default:0.1).
+- **Output:** A nested dictionary `transition_parameters[prev_tag][tag]= probability`, including START and STOP transitions.
+
 ---
 ## Part 3
 
