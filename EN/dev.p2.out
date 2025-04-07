@@ -11710,10 +11710,10 @@ Brussels B-NP
 , O
 Hotel B-NP
 de I-NP
-Ventes I-NP
-Horta I-NP
-auctioned B-PP
-pistols B-NP
+Ventes B-PP
+Horta B-NP
+auctioned I-NP
+pistols I-NP
 and I-NP
 sabers I-NP
 - O

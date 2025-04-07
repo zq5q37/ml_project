@@ -1,0 +1,90 @@
+
+----- Run at 2025-04-07 12:57:51.225140 ----- More Features
+
+#Entity in gold data: 13179
+#Entity in prediction: 13646
+
+#Correct Entity : 12095
+Entity  precision: 0.8863
+Entity  recall: 0.9177
+Entity  F: 0.9018
+
+#Correct Sentiment : 11812
+Sentiment  precision: 0.8656
+Sentiment  recall: 0.8963
+Sentiment  F: 0.8807
+
+----- Run at 2025-04-07 12:58:24.077422 ----- Basic Features
+
+#Entity in gold data: 13179
+#Entity in prediction: 13716
+
+#Correct Entity : 12091
+Entity  precision: 0.8815
+Entity  recall: 0.9174
+Entity  F: 0.8991
+
+#Correct Sentiment : 11822
+Sentiment  precision: 0.8619
+Sentiment  recall: 0.8970
+Sentiment  F: 0.8791
+
+----- Run at 2025-04-07 13:13:20.564665 ----- 15 epochs, more features
+
+#Entity in gold data: 13179
+#Entity in prediction: 13768
+
+#Correct Entity : 12085
+Entity  precision: 0.8778
+Entity  recall: 0.9170
+Entity  F: 0.8969
+
+#Correct Sentiment : 11805
+Sentiment  precision: 0.8574
+Sentiment  recall: 0.8957
+Sentiment  F: 0.8762
+
+----- Run at 2025-04-07 13:16:20.214069 ----- 20 epochs, more features
+
+#Entity in gold data: 13179
+#Entity in prediction: 13635
+
+#Correct Entity : 12165
+Entity  precision: 0.8922
+Entity  recall: 0.9231
+Entity  F: 0.9074
+
+#Correct Sentiment : 11892
+Sentiment  precision: 0.8722
+Sentiment  recall: 0.9023
+Sentiment  F: 0.8870
+
+----- Run at 2025-04-07 13:41:30.104703 ----- ?
+
+#Entity in gold data: 13179
+#Entity in prediction: 13700
+
+#Correct Entity : 11940
+Entity  precision: 0.8715
+Entity  recall: 0.9060
+Entity  F: 0.8884
+
+#Correct Sentiment : 11616
+Sentiment  precision: 0.8479
+Sentiment  recall: 0.8814
+Sentiment  F: 0.8643
+
+----- Run at 2025-04-07 14:07:02.073271 ----- 30 epochs
+
+#Entity in gold data: 13179
+#Entity in prediction: 13689
+
+#Correct Entity : 12007
+Entity  precision: 0.8771
+Entity  recall: 0.9111
+Entity  F: 0.8938
+
+#Correct Sentiment : 11700
+Sentiment  precision: 0.8547
+Sentiment  recall: 0.8878
+Sentiment  F: 0.8709

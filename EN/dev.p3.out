@@ -6599,13 +6599,13 @@ De I-NP
 Palma I-NP
 , O
 beholden B-NP
-to B-PP
+to B-VP
 Guber B-NP
 Peters I-NP
 for B-PP
 hiring B-VP
 him B-NP
-to B-VP
+to B-PP
 direct B-NP
 the B-NP
 Warner I-NP
@@ -9084,10 +9084,10 @@ challenge I-NP
 '' O
 
 But O
-Sotheby O
+Sotheby B-PP
 's B-NP
 , O
-Christie B-PP
+Christie O
 's B-NP
 and O
 the B-NP
@@ -11552,7 +11552,7 @@ million I-NP
 , O
 or O
 $ B-NP
-2.02 B-PP
+2.02 B-VP
 a B-NP
 share I-NP
 , O
@@ -11563,7 +11563,7 @@ million I-NP
 , O
 or O
 $ B-NP
-1.82 B-VP
+1.82 B-PP
 a B-NP
 share I-NP
 , O
@@ -11710,9 +11710,9 @@ Brussels B-NP
 , O
 Hotel B-NP
 de I-NP
-Ventes I-NP
-Horta B-PP
-auctioned B-NP
+Ventes B-PP
+Horta B-NP
+auctioned I-NP
 pistols I-NP
 and O
 sabers B-NP
@@ -11839,14 +11839,14 @@ director I-NP
 is B-VP
 an B-NP
 addition I-NP
-to B-PP
+to B-VP
 the B-NP
 board I-NP
 , O
 increasing B-VP
 its B-NP
 membership I-NP
-to B-VP
+to B-PP
 nine B-NP
 . O
 
@@ -11994,7 +11994,7 @@ his B-NP
 own I-NP
 fields I-NP
 , O
-sows B-VP
+sows B-PP
 his B-NP
 own I-NP
 corn I-NP
@@ -12002,7 +12002,7 @@ and I-NP
 sunflowers I-NP
 , O
 and O
-feeds B-PP
+feeds B-VP
 his B-NP
 own I-NP
 sheep I-NP
@@ -21060,10 +21060,10 @@ business I-NP
 The B-NP
 effete I-NP
 Tyrannosaurus I-NP
-Rex B-PP
-Had B-NP
-strict I-NP
-Cretaceous I-NP
+Rex I-NP
+Had I-NP
+strict B-PP
+Cretaceous B-NP
 views I-NP
 on B-PP
 sex B-NP
@@ -24142,14 +24142,14 @@ is B-VP
 asking I-VP
 magazine I-NP
 ad I-NP
-representatives O
+representatives I-NP
 to B-VP
 tell I-VP
 it B-NP
 when B-ADVP
 major B-NP
 advertising I-NP
-inserts I-NP
+inserts O
 will B-VP
 run I-VP
 in B-PP
