@@ -86,10 +86,61 @@ Calculates transition probabilities with Laplace smoothing.
 - **Input:** 
     - `train_file_path:` Path to training data file (word-tag pairs).
     - `smoothing:` Smoothing factor (default:0.1).
-- **Output:** A nested dictionary `transition_parameters[prev_tag][tag]= probability`, including START and STOP transitions.
+- **Output:** 
+    - A nested dictionary `transition_parameters[prev_tag][tag]= probability`, including START and STOP transitions.
+
+### `virtebi(sentence, transition_params, emission_params, all_tags)`
+Implements the Viterbi algorithm for sequence labeling. 
+
+- **Input:** 
+    - `sentence:` List of words.
+    - `transition params:` Computed transition probabilities.
+    - `emission_params:` Computed emission probabilities. 
+    - `all_tags:` Set of all possible tags.
+- **Output:** 
+    - List of predicted tags for the input sentence.
+
+### `run_viterbi_on_dev_set(dev_in_path, output_path, transition_params, emission_params, all_tags)`
+Runs the Viterbi algorithm on a development set and writes predicitons.
+
+- **Input:** 
+    - `dev_in_path:` Path to the input dev file (one word per line, sentences separated by blank lines).
+    - `output_path:` Path to write the output (word-tag pairs per line).
+    - `transition_params:` Transition probability dictionary. 
+    - `emission_params:` Emission probability dictionary.
+    - `all_tags:` Set of all possible tags.
+- **Output:** 
+    - Writes predicted `(word, tag)` pairs to `output_path`, preserving sentence boundaries.
 
 ---
 ## Part 3
+
+### `kth_best_viterbi(sentence, transition_params, emission_params, all_tags, k=4)`
+Modified Viterbi algorithm to compute the `k`-th best tag sequence for a sentence.
+
+- **Input:** 
+    - `sentence:` List of words in the sentence.
+    - `transition_params:` Transition probability dictionary.
+    - `emission_params:` Emission probability dictionary.
+    - `all_tags:` Set of all possible tags.
+    - `k:` The rank of the sequence to return (e.g., k=4 returns the 4th best path).
+
+- **Output:**
+    - A list of tags representing the k-th best sequence for the given sentence.
+
+### `run_kth_best_viterbi(dev_in_path, output_path, transition_params, emission_params, all_tags, k=4)`
+Applies the k-th best Viterbi decoding to a development set and writes predictions.
+
+- **Input:** 
+    - `dev_in_path:` Path to the input file (one word per line, blank lines between sentences).
+    - `output_path:` Output file path to write (word, tag) predictions
+    - `transition_params:` Transition probability dictionary
+    - `emission_params:` Emission probability dictionary.
+    - `all_tags:` Set of all possible tags.
+    - `k:` The desired ranking of the predicted path (e.g., k=4 for 4th best path).
+- **Output:**
+    -  Writes predicted `(word, tag)` pairs to `output_path`, preserving sentence boundaries.
+
 
 ---
 ## Part 4
