@@ -88,3 +88,18 @@ Entity  F: 0.8938
 Sentiment  precision: 0.8547
 Sentiment  recall: 0.8878
 Sentiment  F: 0.8709
+
+----- Run at 2025-04-21 15:53:19.369643 ----- 20 epochs
+
+#Entity in gold data: 13179
+#Entity in prediction: 13624
+
+#Correct Entity : 12156
+Entity  precision: 0.8922
+Entity  recall: 0.9224
+Entity  F: 0.9071
+
+#Correct Sentiment : 11900
+Sentiment  precision: 0.8735
+Sentiment  recall: 0.9030
+Sentiment  F: 0.8880

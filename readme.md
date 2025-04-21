@@ -1,6 +1,7 @@
 # 50.007 Machine Learning, Spring 2025
 # Design Project Report
 
+By: Aishwarya Iyer	1007141, Khoo Zi Qi	1006984
 ## Overview
 
 This project implements key components of a Hidden Markov Model (HMM) for Named Entity Recognition (NER). It includes functions to compute emission parameters, apply smoothing for rare words, generate predictions, and evaluate model performance using precision, recall, and F1 score.
@@ -25,7 +26,7 @@ The implementation is contained in a Jupyter Notebook. To run the project:
 1. Open the notebook.
 2. Execute all cells sequentially from top to bottom.
 
-This will compute the emission probabilities, apply smoothing, optionally write predictions to a file, and print evaluation metrics.
+This will compute the emission probabilities, apply smoothing, optionally write predictions to a file, and print evaluation metrics. Part 4 is in a separate jupyter notebook.
 
 ---
 
