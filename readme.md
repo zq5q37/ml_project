@@ -1,5 +1,5 @@
 # 50.007 Machine Learning, Spring 2025
-# Design Project Report
+# Design Project README
 
 By: Aishwarya Iyer	1007141, Khoo Zi Qi	1006984
 ## Overview
@@ -10,25 +10,33 @@ The code assumes a training dataset in which each line contains a word and its c
 
 ---
 
-## Setup Instructions
+##  Setup Instructions
 
-### Dependencies
-Ensure you have python.
-Ensure `numpy` is installed in your environment. If not, install it using:
+###  Dependencies
+Make sure you have Python installed. Then install required packages:
 
 ```bash
-pip install numpy
+pip install numpy dill
 ```
 
-### Running the Code
-The implementation is contained in a Jupyter Notebook. To run the project:
+###  Running the Project
 
-1. Open the notebook.
-2. Execute all cells sequentially from top to bottom.
+This project is implemented using Jupyter Notebooks. To run it:
 
-This will compute the emission probabilities, apply smoothing, optionally write predictions to a file, and print evaluation metrics. Part 4 is in a separate jupyter notebook.
+1. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+2. Open the notebook files.
+3. Run all cells from top to bottom.
+
+###  Files
+
+- `part_1_2_3.ipynb`: Contains emission probabilities, smoothing, and predictions.
+- `part_4.ipynb`: Averaged Perceptron model with save/load functionality using `dill`.
 
 ---
+
 
 ## Part 1
 
