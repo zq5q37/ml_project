@@ -19,25 +19,42 @@ pip install numpy dill
 ```
 Note: dill is only required if you want to save/load the model in part 4.
 
-###  Running the Project
+### Running the Project
 
-This project is implemented using Jupyter Notebooks. To run it:
+This project is implemented in Python.
 
-1. Launch Jupyter Notebook:
+1. **Navigate to the root folder:**
+   Open the command line and change directory to the project root folder, `ml_project`.
+
+2. **To run Parts 1 to 3:**
    ```bash
-   jupyter notebook
+   python part_1_2_3.py
    ```
-2. Open the notebook files.
-3. Run all cells from top to bottom.
 
-Alternatively, you can use Visual Studio Code (VSCode) to run the Jupyter Notebooks.
+3. **To run Part 4:**
+   ```bash
+   python part_4.py
+   ```
+
+4. **To run the evaluation script (e.g., for Part 1):**
+   ```bash
+   python EvalScript/evalResult.py EN/dev.out EN/dev.p1.out
+   ```
 
 ### Files
 
-- `part_1_2_3.ipynb`: Contains Parts 1 to 3:
-  - **Part 1**: Estimates emission parameters from the training set using Maximum Likelihood Estimation (MLE), both unsmoothed and smoothed. Implements a simple system that computes the most likely tag \( y^* = \arg\max_{y} e(x|y) \) for each word \( x \) in the sequence.
-  - **Part 2**: Computes transition probabilities with smoothing and proper handling of STOP/START tokens. Implements the Viterbi algorithm.
-  - **Part 3**: A modified version of the Viterbi algorithm to find the k-th best sequence.
+- **`part_1_2_3.ipynb`:** Contains Parts 1 to 3:
+  - **Part 1:** Estimates emission parameters from the training set using Maximum Likelihood Estimation (MLE), both unsmoothed and smoothed. Implements a simple system to compute the most likely tag \( y^* = \arg\max_{y} e(x|y) \) for each word \( x \) in the sequence.
+  - **Part 2:** Computes transition probabilities with smoothing and proper handling of STOP/START tokens. Implements the Viterbi algorithm.
+  - **Part 3:** A modified version of the Viterbi algorithm to find the k-th best sequence.
 
-- `part_4.ipynb`: Implements the Averaged Perceptron model.
+- **`part_4.ipynb`:** Implements the Averaged Perceptron model.
+- **`eval_log.txt`:** Contains evaluation output for Part 4.
+- **`EN/`:** Contains the following output files:
+  1. `dev.p1.out`
+  2. `dev.p2.out`
+  3. `dev.p3.out`
+  4. `dev.p4.out`
+  5. `test.p4.out`
+
 
