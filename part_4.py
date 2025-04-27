@@ -175,7 +175,7 @@ train_data = read_data(train_file)
 
 
 # %%
-model = train_perceptron(train_data, epochs=20)
+# model = train_perceptron(train_data, epochs=20)
 
 # %%
 import dill
@@ -193,7 +193,7 @@ def load_model(filename='model.pkl'):
         model = dill.load(f)
     print(f"Model loaded from {filename}")
     return model
-# model = load_model("part_4_model.pkl")
+model = load_model("part_4_model.pkl")
 
 # %% [markdown]
 # Code to write and evaluate dev predictions

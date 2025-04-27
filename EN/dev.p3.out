@@ -9084,10 +9084,10 @@ challenge I-NP
 '' O
 
 But O
-Sotheby B-PP
+Sotheby O
 's B-NP
 , O
-Christie O
+Christie B-PP
 's B-NP
 and O
 the B-NP
@@ -11710,9 +11710,9 @@ Brussels B-NP
 , O
 Hotel B-NP
 de I-NP
-Ventes B-PP
-Horta B-NP
-auctioned I-NP
+Ventes I-NP
+Horta B-PP
+auctioned B-NP
 pistols I-NP
 and O
 sabers B-NP
@@ -21060,10 +21060,10 @@ business I-NP
 The B-NP
 effete I-NP
 Tyrannosaurus I-NP
-Rex I-NP
-Had I-NP
-strict B-PP
-Cretaceous B-NP
+Rex B-PP
+Had B-NP
+strict I-NP
+Cretaceous I-NP
 views I-NP
 on B-PP
 sex B-NP
@@ -24142,14 +24142,14 @@ is B-VP
 asking I-VP
 magazine I-NP
 ad I-NP
-representatives I-NP
+representatives O
 to B-VP
 tell I-VP
 it B-NP
 when B-ADVP
 major B-NP
 advertising I-NP
-inserts O
+inserts I-NP
 will B-VP
 run I-VP
 in B-PP

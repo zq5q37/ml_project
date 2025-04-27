@@ -28,13 +28,14 @@ This project is implemented in Python.
 
 2. **To run Parts 1 to 3:**
    ```bash
-   python part_1_2_3.py
+   python .\part_1_2_3.py
    ```
 
 3. **To run Part 4:**
    ```bash
-   python part_4.py
+   python .\part_4.py
    ```
+The model is saved and loaded using `dill` to/from the file `part_4_model.pkl`, so you don't need to retrain it.
 
 4. **To run the evaluation script (e.g., for Part 1):**
    ```bash
